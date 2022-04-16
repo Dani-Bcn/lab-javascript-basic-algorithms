@@ -10,8 +10,8 @@ let wordString;
         let wordsCompare=wordReverse.toString(",").replace(/[, ]/g,"").toLowerCase()
         let wordsCompare2=text.replace(/ /g,"").toLowerCase()
         console.log(wordsCompare,wordsCompare2)
-        wordsCompare===wordsCompare2?console.log("The texts are the same¡¡")
+        wordsCompare===wordsCompare2?console.log("It's a palindrome¡¡")
         :
-        console.log(`The texts are not the same`)
+        console.log(`Is not a palindrome`)
    }
 })
